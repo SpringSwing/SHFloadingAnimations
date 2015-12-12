@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C47a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGD-4c-WZY">
+                                <rect key="frame" x="478" y="482" width="72" height="73"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="LQj-jh-gx7"/>
+                                    <constraint firstAttribute="width" constant="72" id="wwu-SY-jDO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="R">
+                                    <color key="titleColor" red="0.96982835875415019" green="0.99891327808295782" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="rightButton:" destination="BYZ-38-t0r" eventType="touchDown" id="9UK-uY-wGf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ZU-GR-1lf">
+                                <rect key="frame" x="50" y="482" width="72" height="73"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="C2A-Rn-zTB"/>
+                                    <constraint firstAttribute="width" constant="72" id="URD-rg-tg0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="L">
+                                    <color key="titleColor" red="1" green="0.98196240174317673" blue="0.98624355535318153" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="leftButton:" destination="BYZ-38-t0r" eventType="touchDown" id="Xrv-Xs-dL2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7ZU-GR-1lf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="4Pw-2z-T2o"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cGD-4c-WZY" secondAttribute="trailing" constant="30" id="RbR-7r-Q6Y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cGD-4c-WZY" secondAttribute="bottom" constant="45" id="Rxu-df-SfL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7ZU-GR-1lf" secondAttribute="bottom" constant="45" id="nL6-I8-4ex"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-22" y="302"/>
+        </scene>
+    </scenes>
+</document>
