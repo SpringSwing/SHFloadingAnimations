@@ -1,3 +1,10 @@
+//
+//  Ani_10.m
+//  Animations
+//
+//  Created by SHF on 15/12/9.
+//  Copyright © 2015年 SHF. All rights reserved.
+//
 #import "Ani_10.h"
 #import <QuartzCore/QuartzCore.h>
 
