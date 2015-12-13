@@ -226,7 +226,6 @@
         
         [CATransaction commit];
     });
- //   科技创新城  科技一街 399号 3号楼 西座四层 125   13284011807
 }
 -(void)animation_6
 {
